@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="LUXE - International luxury fashion brand with cinematic design and premium craftsmanship">
+    <meta name="theme-color" content="#000000">
+    <title>LUXE — Premium Fashion Brand</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Premium Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body data-theme="dark">
+
+
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h1 class="nav-logo-text">LUXE</h1>
+                </div>
+                <div class="nav-menu">
+                    <a href="#home" class="nav-link active">HOME</a>
+                    <a href="#shop" class="nav-link">SHOP</a>
+                    <a href="#collection" class="nav-link">NEW COLLECTION</a>
+                    <a href="#about" class="nav-link">ABOUT</a>
+                    <a href="#contact" class="nav-link">CONTACT</a>
+                </div>
+                <div class="nav-icons">
+                    <div class="nav-search" id="navSearch">
+                        <input type="text" class="search-input-inline" placeholder="Search...">
+                        <a href="#" class="nav-icon search-trigger" title="Search">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </div>
+                    <a href="#" class="nav-icon" title="Wishlist">
+                        <i class="fas fa-heart"></i>
+                    </a>
+                    <a href="#" class="nav-icon theme-toggle" id="themeToggle" title="Toggle Theme">
+                        <i class="fas fa-moon"></i>
+                    </a>
+                    <a href="#" class="nav-icon cart-icon" title="Shopping Cart">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span class="cart-count">0</span>
+                    </a>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-bg"></div>
+            <div class="hero-overlay"></div>
+            <div class="hero-overlay-gradient"></div>
+            <div class="scroll-indicator">
+                <div class="scroll-dot"></div>
+                <div class="scroll-dot"></div>
+                <div class="scroll-dot"></div>
+            </div>
+            <div class="hero-content">
+                <div class="hero-text-wrapper">
+                    <div class="legendary-pretitle">The Winter Collection 2026</div>
+                    <h1 class="hero-title cinematic-text">
+                        Defining the <br>
+                        <span class="accent-word">Art of Elegance</span>
+                    </h1>
+                    <p class="hero-description legendary-desc">Step into a world where every stitch tells a story of
+                        heritage, precision, and timeless luxury.</p>
+                    <div class="hero-btns legendary-btns">
+                        <button class="cta-button">Explore Atelier</button>
+                        <button class="cta-button-secondary">Collection</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Products Section -->
+        <section class="section featured-products reveal" id="shop">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2>Featured Collection</h2>
+                    <p>Curated pieces for the discerning eye</p>
+                </div>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <span class="product-badge">New Arrival</span>
+                            <img src="assets/2.webp" alt="Premium Handbag" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <p class="product-brand">LUXE Heritage</p>
+                            <h3>Premium Handbag</h3>
+                            <div class="product-meta">
+                                <span class="price">$2,500</span>
+                                <div class="product-cta">
+                                    <button class="quick-view" title="Quick View"><i class="fas fa-eye"></i></button>
+                                    <button class="add-to-cart-simple" title="Add to Cart"><i
+                                            class="fas fa-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/3.webp" alt="Designer Sunglasses" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <p class="product-brand">LUXE Optique</p>
+                            <h3>Designer Sunglasses</h3>
+                            <div class="product-meta">
+                                <span class="price">$890</span>
+                                <div class="product-cta">
+                                    <button class="quick-view" title="Quick View"><i class="fas fa-eye"></i></button>
+                                    <button class="add-to-cart-simple" title="Add to Cart"><i
+                                            class="fas fa-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <span class="product-badge">Limited</span>
+                            <img src="assets/4.webp" alt="Luxury Watch" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <p class="product-brand">LUXE Horology</p>
+                            <h3>Luxury Watch</h3>
+                            <div class="product-meta">
+                                <span class="price">$5,200</span>
+                                <div class="product-cta">
+                                    <button class="quick-view" title="Quick View"><i class="fas fa-eye"></i></button>
+                                    <button class="add-to-cart-simple" title="Add to Cart"><i
+                                            class="fas fa-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/5.webp" alt="Silk Scarf" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <p class="product-brand">LUXE Accessories</p>
+                            <h3>Silk Scarf</h3>
+                            <div class="product-meta">
+                                <span class="price">$450</span>
+                                <div class="product-cta">
+                                    <button class="quick-view" title="Quick View"><i class="fas fa-eye"></i></button>
+                                    <button class="add-to-cart-simple" title="Add to Cart"><i
+                                            class="fas fa-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/6.webp" alt="Designer Belt" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <p class="product-brand">LUXE Leather</p>
+                            <h3>Designer Belt</h3>
+                            <div class="product-meta">
+                                <span class="price">$680</span>
+                                <div class="product-cta">
+                                    <button class="quick-view" title="Quick View"><i class="fas fa-eye"></i></button>
+                                    <button class="add-to-cart-simple" title="Add to Cart"><i
+                                            class="fas fa-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/7.webp" alt="Premium Perfume" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <p class="product-brand">LUXE Parfums</p>
+                            <h3>Premium Perfume</h3>
+                            <div class="product-meta">
+                                <span class="price">$380</span>
+                                <div class="product-cta">
+                                    <button class="quick-view" title="Quick View"><i class="fas fa-eye"></i></button>
+                                    <button class="add-to-cart-simple" title="Add to Cart"><i
+                                            class="fas fa-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- New Arrivals Section -->
+        <section class="section new-arrivals reveal" id="collection">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2>New Arrivals</h2>
+                    <p>Discover the latest luxury pieces</p>
+                </div>
+                <div class="arrivals-grid">
+                    <div class="arrival-card">
+                        <div class="arrival-image">
+                            <span class="product-badge">Winter 26</span>
+                            <img src="assets/8.png" alt="Limited Edition Sneaker" loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <p class="product-brand">LUXE Footwear</p>
+                            <h3>Limited Edition Sneaker</h3>
+                            <div class="product-meta">
+                                <span class="price">$1,200</span>
+                                <div class="product-cta">
+                                    <button class="quick-view" title="Quick View"><i class="fas fa-eye"></i></button>
+                                    <button class="add-to-cart-simple" title="Add to Cart"><i
+                                            class="fas fa-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="arrival-card">
+                        <div class="arrival-image">
+                            <img src="assets/Apple_Watch_Series_9_GPS_45mm_Starlight.webp" alt="Apple Watch Series 9"
+                                loading="lazy">
+                        </div>
+                        <div class="product-info">
+                            <p class="product-brand">LUXE Tech</p>
+                            <h3>Smart Watch Premium</h3>
+                            <div class="product-meta">
+                                <span class="price">$1,899</span>
+                                <div class="product-cta">
+                                    <button class="quick-view" title="Quick View"><i class="fas fa-eye"></i></button>
+                                    <button class="add-to-cart-simple" title="Add to Cart"><i
+                                            class="fas fa-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section about reveal" id="about">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2>About LUXE</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h3>Our Heritage</h3>
+                        <p>LUXE represents the pinnacle of luxury craftsmanship. Each piece in our collection is
+                            meticulously curated and handcrafted by master artisans from around the world. We believe
+                            that true luxury is not just about the product—it's about the experience, the heritage, and
+                            the story behind every item.</p>
+                        <button class="cta-button">Learn More</button>
+                    </div>
+                    <div class="about-image">
+                        <img src="assets/bac.jpg" alt="About LUXE" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="section newsletter-section">
+            <div class="section-container">
+                <div class="newsletter-content">
+                    <h2>Join Our Circle</h2>
+                    <p>Receive exclusive updates, early access to new collections, and special offers</p>
+                    <form id="newsletterForm" class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit" class="newsletter-btn">Subscribe Now</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer" id="contact">
+            <div class="footer-container">
+                <div class="footer-top">
+                    <div class="footer-brand">
+                        <h2 class="brand-name">LUXE</h2>
+                    </div>
+                    <div class="footer-nav">
+                        <div class="footer-col">
+                            <h4>Maison</h4>
+                            <ul>
+                                <li><a href="#">Our Story</a></li>
+                                <li><a href="#">Atelier</a></li>
+                                <li><a href="#">Commitment</a></li>
+                                <li><a href="#">Boutiques</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Support</h4>
+                            <ul>
+                                <li><a href="#">Client Care</a></li>
+                                <li><a href="#">Shipping</a></li>
+                                <li><a href="#">Returns</a></li>
+                                <li><a href="#">Privacy</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Connect</h4>
+                            <p class="socials-label">Follow our world</p>
+                            <div class="footer-socials">
+                                <a href="#" class="social-btn" title="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" class="social-btn" title="Facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="social-btn" title="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="social-btn" title="TikTok">
+                                    <i class="fab fa-tiktok"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>© 2026 All rights reserved — Developed by <span class="dev-name">Nour Wael</span></p>
+                    <div class="footer-meta-links">
+                        <a href="#">Terms</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Sustainability</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Quick View Modal -->
+        <div class="modal" id="quickViewModal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <div class="modal-body">
+                    <div class="modal-image-container">
+                        <img id="modalProductImage" src="" alt="Product">
+                    </div>
+                    <div class="modal-details">
+                        <h2 id="modalProductName">Product Name</h2>
+                        <p class="modal-category" id="modalProductCategory">Category</p>
+                        <p class="modal-price" id="modalProductPrice">$0.00</p>
+                        <p class="modal-description">Experience the pinnacle of luxury with our handcrafted accessories,
+                            designed for individuals who appreciate the finer things in life. Each piece tells a story
+                            of heritage and innovation.</p>
+                        <div class="modal-options">
+                            <div class="option-group">
+                                <span>Color:</span>
+                                <div class="color-dots">
+                                    <span class="dot gold active"></span>
+                                    <span class="dot silver"></span>
+                                    <span class="dot obsidian"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="add-to-cart-premium">Add to Shopping Bag</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Right Side Cart Panel -->
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3>Your Shopping Bag</h3>
+            <span class="close-cart">&times;</span>
+        </div>
+        <div class="cart-items">
+            <p class="empty-msg">Your bag is empty.</p>
+        </div>
+        <div class="cart-footer">
+            <div class="total">Total: <span>$0.00</span></div>
+            <button class="checkout-btn">Checkout</button>
+        </div>
+    </div>
+
+    <button class="back-to-top" id="backToTop" title="Back to Top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+
+        <!-- Load JavaScript -->
+        <script src="script.js" defer></script>
+    </body>
+
+</html>
+
